@@ -1,12 +1,12 @@
 while True:
-    sayi = int(input("Sayý:"))
+    sayi = int(input("Sayi:"))
     toplam=0
 
 
-    for i in range(sayi-1,0,-1): #girilen sayýyý geriye doðru sýralýyacak.
+    for i in range(sayi-1,0,-1): 
         if sayi%i==0:
             toplam+=i
     if toplam==sayi:
-        print(sayi,"Sayýsý Mükemmel Sayýdýr..")
+        print(sayi,"Sayisi MÃ¼kemmel Sayidir..")
     else:
-        print(sayi,"Sayýsý Mükemmel sayý deðil")
+        print(sayi,"Sayisi MÃ¼kemmel Sayi Degil")
